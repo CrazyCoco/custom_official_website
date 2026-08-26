@@ -3,46 +3,107 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Maloy is a social fitness space for movement, coaching, and connection.">
-  <meta name="theme-color" content="#08080b">
-  <title>Maloy — Move with intent</title>
-  <link rel="icon" href="./assets/maloy_app_icon.png">
+  <meta name="description" content="Coki is your swimming community and AI coach. Share your swim journey, learn new techniques, and connect with swimmers worldwide.">
+  <meta name="theme-color" content="#100a30">
+  <title>Coki - Your Swimming Community &amp; AI Coach</title>
+  <link rel="icon" href="./assets/coki_app_icon.png">
   <link rel="stylesheet" href="./styles.css">
 </head>
-<body class="site-home">
+<body>
   <header class="site-header">
-    <a class="wordmark" href="./index.html"><img src="./assets/maloy_app_icon.png" alt="Maloy app icon"><span>MALOY</span></a>
-    <nav aria-label="Main navigation"><a href="#experience">Experience</a><a href="#coach">AI coach</a><a href="#legal">Policies</a><a href="./contact/index.html">Contact</a></nav>
-    <a class="header-cta" href="mailto:maloyfitness@gmail.com">Get in touch <span>↗</span></a>
+    <a class="wordmark" href="./index.html" aria-label="Coki home">
+      <img src="./assets/coki_app_icon.png" alt="Coki app icon">
+      <strong>Coki</strong>
+    </a>
+    <nav aria-label="Main navigation">
+      <a href="#journey">Journey</a>
+      <a href="#coach">AI Coach</a>
+      <a href="#community">Community</a>
+      <a href="#policies">Policies</a>
+    </nav>
+    <a class="header-contact" href="mailto:cokiswimming@gmail.com">Contact</a>
   </header>
 
   <main>
-    <section class="hero-panel">
+    <section class="hero" aria-labelledby="hero-title">
+      <img class="hero-field" src="./assets/coki_water_field.png" alt="">
       <div class="hero-copy">
-        <p class="label">SOCIAL FITNESS / MALOY</p>
-        <h1>Move<br><em>with intent.</em></h1>
-        <p class="hero-lead">A focused space for training, progress, and the people who keep you moving.</p>
-        <div class="hero-actions"><a class="primary-button" href="#experience">Explore Maloy <span>↓</span></a><a class="text-link" href="./users/index.html">Read the agreement <span>↗</span></a></div>
+        <p class="eyebrow">SWIM / SHARE / GROW</p>
+        <h1 id="hero-title">Coki</h1>
+        <h2>Your Swimming Community &amp; AI Coach</h2>
+        <p>Track your swimming journey, share the moments that matter, and exchange ideas with swimmers at every level.</p>
+        <div class="hero-actions">
+          <a class="primary-action" href="#journey">Explore Coki</a>
+          <a class="inline-link" href="mailto:cokiswimming@gmail.com">cokiswimming@gmail.com</a>
+        </div>
       </div>
-      <div class="hero-visual"><img src="./assets/maloy_fitness_portrait.png" alt="Athlete training in a studio"><div class="hero-stamp"><span>01</span><strong>TRAIN<br>TOGETHER</strong></div><div class="hero-caption">BUILD A BODY<br>OF WORK</div></div>
-    </section>
-
-    <section class="signal-line" aria-label="Maloy principles"><span>SHOW UP</span><i>+</i><span>KEEP GOING</span><i>+</i><span>SHARE PROGRESS</span><i>+</i><span>STAY CURIOUS</span></section>
-
-    <section id="experience" class="experience-section">
-      <div class="section-intro"><p class="label">02 / THE EXPERIENCE</p><h2>Fitness that<br><em>feels alive.</em></h2><p>Maloy brings movement, community, and coaching into one energetic rhythm. Find your next challenge, share the work, and keep the momentum visible.</p></div>
-      <div class="feature-grid">
-        <article class="feature feature-dark"><span class="feature-index">01</span><div><p class="label">DISCOVER</p><h3>Find your<br>next <em>push.</em></h3><p>Explore stories, clips, and ideas from people who train with purpose.</p></div><b class="feature-mark">↗</b></article>
-        <article class="feature feature-lime"><span class="feature-index">02</span><div><p class="label">CONNECT</p><h3>Progress is<br>better <em>shared.</em></h3><p>Follow the people who make showing up feel possible.</p></div><div class="mini-orbit"><img src="./assets/maloy_fitness_token_orb.png" alt="Maloy token"></div></article>
-        <article class="feature feature-purple"><span class="feature-index">03</span><div><p class="label">CREATE</p><h3>Make the<br>work <em>visible.</em></h3><p>Post a moment, celebrate a win, and leave a little energy behind.</p></div></article>
+      <div class="screen-stage" aria-label="Coki app previews">
+        <img class="screen screen-home" src="./assets/coki_home_screen.png" alt="Coki swimming discovery screen">
+        <img class="screen screen-ai" src="./assets/coki_ai_screen.png" alt="Coki AI swimming coach conversation">
+        <span class="stage-label">REAL APP EXPERIENCE</span>
       </div>
     </section>
 
-    <section id="coach" class="coach-section"><div class="coach-image"><img src="./assets/maloy_fitness_coach_scene.png" alt="Maloy AI coach scene"><span class="coach-badge">MALOY AI / ALWAYS READY</span></div><div class="coach-copy"><p class="label">03 / GUIDANCE</p><h2>Your next<br>move has<br><em>a coach.</em></h2><p>Ask for ideas, a new angle on your routine, or a little momentum when you need it. Maloy AI is built to keep the conversation moving.</p><a class="primary-button" href="mailto:maloyfitness@gmail.com?subject=Maloy%20Support">Talk to us <span>↗</span></a></div></section>
+    <div class="current-line" aria-label="Coki highlights">
+      <span>SWIMMING STORIES</span><i></i><span>PERSONAL AI COACH</span><i></i><span>GLOBAL COMMUNITY</span>
+    </div>
 
-    <section id="legal" class="legal-links"><div><p class="label">04 / TRUST &amp; SAFETY</p><h2>Clear terms.<br><em>Clear choices.</em></h2></div><nav><a href="./users/index.html"><span>01</span><strong>User Agreement</strong><i>↗</i></a><a href="./privacy/index.html"><span>02</span><strong>App Privacy Policy</strong><i>↗</i></a><a href="./contact/index.html"><span>03</span><strong>Contact Maloy</strong><i>↗</i></a></nav></section>
+    <section id="journey" class="journey-band">
+      <div class="section-heading">
+        <p class="eyebrow">01 / YOUR JOURNEY</p>
+        <h2>Every swim has<br>a story worth sharing.</h2>
+      </div>
+      <p class="section-lead">Post training sessions, open-water moments, personal milestones, and new challenges. Coki gives your progress a place to live and connects it with people who understand the work behind every lap.</p>
+      <div class="feature-list">
+        <article><span>01</span><h3>Capture progress</h3><p>Keep your favorite swimming moments visible, from first lessons to hard-earned personal bests.</p></article>
+        <article><span>02</span><h3>Exchange ideas</h3><p>Share techniques, training routines, and practical tips with swimmers who are learning alongside you.</p></article>
+        <article><span>03</span><h3>Stay connected</h3><p>Find fresh motivation through conversations, videos, and a community built around the water.</p></article>
+      </div>
+    </section>
+
+    <section id="coach" class="coach-band">
+      <div class="coach-copy">
+        <p class="eyebrow">02 / COKI AI</p>
+        <h2>Swimming knowledge,<br>ready when you are.</h2>
+        <p>Ask about technique, pacing, training ideas, or the details behind a better stroke. Coki's built-in AI offers personalized insights and clear answers for your next session.</p>
+        <a class="dark-action" href="mailto:cokiswimming@gmail.com?subject=Coki%20AI%20Coach">Talk to Coki</a>
+      </div>
+      <figure class="coach-screen">
+        <img src="./assets/coki_ai_screen.png" alt="A conversation with the Coki AI coach">
+        <figcaption>TECHNIQUE / TRAINING / ANSWERS</figcaption>
+      </figure>
+    </section>
+
+    <section id="community" class="community-band">
+      <div class="section-heading light">
+        <p class="eyebrow">03 / TOGETHER IN THE WATER</p>
+        <h2>A community that<br>moves with you.</h2>
+      </div>
+      <div class="community-gallery">
+        <figure><img src="./assets/coki_community_screen.png" alt="Coki swimming community feed"><figcaption>Discover conversations and swimming clips.</figcaption></figure>
+        <figure><img src="./assets/coki_video_screen.png" alt="A swimming video in Coki"><figcaption>Share the energy of every swim.</figcaption></figure>
+        <div class="community-copy"><p>Join discussions, offer advice, and support other swimmers in reaching their goals.</p><p>Whether you are improving your technique, planning a new workout, or simply looking for people who love swimming as much as you do, Coki keeps the conversation flowing.</p></div>
+      </div>
+    </section>
+
+    <section id="policies" class="policies-band">
+      <div>
+        <p class="eyebrow">04 / CLEAR &amp; RESPONSIBLE</p>
+        <h2>Your choices,<br>clearly explained.</h2>
+      </div>
+      <nav aria-label="Policies and support">
+        <a href="./users/index.html"><span>01</span><strong>User Agreement</strong><b>Open</b></a>
+        <a href="./privacy/index.html"><span>02</span><strong>Privacy Policy</strong><b>Open</b></a>
+        <a href="./contact/index.html"><span>03</span><strong>Contact Coki</strong><b>Open</b></a>
+      </nav>
+    </section>
   </main>
 
-  <footer class="site-footer"><div class="footer-brand"><img src="./assets/maloy_app_icon.png" alt="Maloy app icon"><div><strong>MALOY</strong><span>Move with intent.</span></div></div><div><p class="label">CONTACT</p><a href="mailto:maloyfitness@gmail.com">maloyfitness@gmail.com</a></div><div class="footer-nav"><a href="./users/index.html">User Agreement</a><a href="./privacy/index.html">App Privacy Policy</a><a href="./contact/index.html">Contact Us</a></div><p class="copyright">© 2026 Maloy. All rights reserved.</p></footer>
+  <footer class="site-footer">
+    <div class="footer-brand"><img src="./assets/coki_app_icon.png" alt="Coki app icon"><div><strong>Coki</strong><span>Your Swimming Community &amp; AI Coach</span></div></div>
+    <div><p>CONTACT</p><a href="mailto:cokiswimming@gmail.com">cokiswimming@gmail.com</a></div>
+    <nav><a href="./users/index.html">User Agreement</a><a href="./privacy/index.html">Privacy Policy</a><a href="./contact/index.html">Contact Us</a></nav>
+    <small>Copyright 2026 Coki. All rights reserved.</small>
+  </footer>
 </body>
 </html>

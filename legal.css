@@ -1,1 +1,54 @@
-.legal-body{color:#121219;background:#ecebf2}.topbar{display:flex;align-items:center;gap:32px;min-height:78px;padding:0 6vw;color:#fff;background:#08080b;border-bottom:1px solid rgba(255,255,255,.12)}.brand{display:flex;align-items:center;gap:12px;font:700 17px "Space Grotesk",sans-serif;letter-spacing:.1em}.brand img{width:39px;height:39px;border-radius:12px}.brand i{color:#a9ff2e;font-style:normal}.topbar .nav{display:flex;gap:25px;margin-left:auto;font-size:13px}.topbar .nav a:hover{color:#a9ff2e}.orbit-button{display:inline-flex;min-height:43px;align-items:center;justify-content:center;padding:0 18px;border-radius:8px;color:#08080b;background:#a9ff2e;font-size:12px;font-weight:700}.legal-main{width:min(1120px,calc(100% - 40px));margin:auto;padding:78px 0 100px}.legal-hero{max-width:780px;padding-bottom:54px}.eyebrow{color:#9a59f5;font:700 11px "Space Grotesk",sans-serif;letter-spacing:.17em}.legal-hero h1{margin:22px 0;font:600 clamp(54px,8vw,104px)/.86 "Space Grotesk",sans-serif;letter-spacing:-.08em}.legal-hero p{margin:0;color:#666672;font-size:17px;line-height:1.7}.legal-layout{display:grid;grid-template-columns:225px minmax(0,1fr);gap:38px;align-items:start}.legal-aside{position:sticky;top:100px;padding:22px;border-radius:14px;color:#fff;background:#08080b}.legal-aside strong{display:block;margin-bottom:8px;color:#a9ff2e;font:700 10px "Space Grotesk",sans-serif;letter-spacing:.14em}.legal-aside span{display:block;color:#c0c0ca;font-size:13px;overflow-wrap:anywhere}.legal-document{padding:44px 52px;border:1px solid #d6d4de;border-radius:18px;background:#fff}.legal-document h2{margin:42px 0 13px;font:600 27px "Space Grotesk",sans-serif;letter-spacing:-.04em}.legal-document h2:first-child{margin-top:0}.legal-document p,.legal-document li{color:#4f4e59;font-size:15px;line-height:1.8}.legal-document ul{padding-left:22px}.legal-document a{color:#6c36c2;text-decoration:underline}.notice{padding:18px 20px;border-left:3px solid #9a59f5;background:#f0eafa}.footer{display:grid;grid-template-columns:1.1fr 1fr 1fr;gap:35px;padding:50px 6vw 26px;color:#fff;background:#14141b}.footer-brand{display:flex;flex-direction:column;gap:10px}.footer-brand img{width:54px;border-radius:16px}.footer-brand strong{font:700 15px "Space Grotesk",sans-serif;letter-spacing:.1em}.footer-brand p{margin:0;color:#a2a2ad;font-size:12px}.footer small{display:block;margin-bottom:12px;color:#a9ff2e;font:700 10px "Space Grotesk",sans-serif;letter-spacing:.14em}.footer>div>a{font-size:15px;font-weight:700}.footer nav{display:flex;flex-direction:column;gap:10px;font-size:13px}.footer nav a:hover{color:#a9ff2e}.copyright{grid-column:1/-1;margin:0;padding-top:22px;border-top:1px solid rgba(255,255,255,.14);color:#858590;font-size:12px}.contact-card{display:grid;grid-template-columns:1fr auto;align-items:center;gap:32px;padding:35px;border-radius:18px;color:#fff;background:#08080b}.contact-card h2{margin:12px 0;font:600 clamp(37px,5vw,68px)/.9 "Space Grotesk",sans-serif;letter-spacing:-.06em}.contact-card p{max-width:560px;margin:0;color:#b7b7c2;line-height:1.7}.contact-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:30px}.contact-grid article{padding:25px;border:1px solid #d6d4de;border-radius:14px;background:#fff}.contact-grid span{color:#9a59f5;font:700 11px "Space Grotesk",sans-serif}.contact-grid h3{margin:22px 0 9px;font:600 21px "Space Grotesk",sans-serif}.contact-grid p{margin:0;color:#666672;line-height:1.6}@media(max-width:760px){.topbar{padding:0 20px}.topbar .nav{display:none}.topbar .orbit-button{margin-left:auto}.legal-main{width:calc(100% - 30px);padding-top:52px}.legal-layout{grid-template-columns:1fr}.legal-aside{position:static}.legal-document{padding:30px 22px}.contact-card{grid-template-columns:1fr;padding:27px 23px}.contact-card .orbit-button{width:100%}.contact-grid{grid-template-columns:1fr}.footer{grid-template-columns:1fr;padding:43px 22px 24px}.copyright{grid-column:auto}}
+.legal-body { background: #f4f5f9; }
+.legal-header { display: flex; align-items: center; gap: 28px; min-height: 74px; padding: 0 6vw; color: #fff; background: #100a30; border-bottom: 1px solid rgba(255,255,255,0.14); }
+.legal-brand { display: flex; align-items: center; gap: 10px; }
+.legal-brand img { width: 42px; height: 42px; border-radius: 8px; }
+.legal-brand strong { font-size: 19px; }
+.legal-header nav { display: flex; gap: 25px; margin-left: auto; font-size: 13px; font-weight: 700; }
+.legal-header nav a:hover { color: #59cbe8; }
+.legal-home { display: inline-flex; min-height: 42px; align-items: center; padding: 0 17px; border-radius: 8px; color: #100a30; background: #59cbe8; font-size: 12px; font-weight: 900; }
+.legal-main { width: min(1140px, calc(100% - 40px)); margin: 0 auto; padding: 78px 0 104px; }
+.legal-hero { max-width: 830px; padding-bottom: 56px; }
+.legal-hero h1 { margin: 20px 0; font-size: 72px; line-height: 0.98; font-weight: 900; }
+.legal-hero > p:last-child { max-width: 720px; margin: 0; color: #6f6b82; font-size: 17px; line-height: 1.7; }
+.legal-layout { display: grid; grid-template-columns: 230px minmax(0, 1fr); gap: 34px; align-items: start; }
+.legal-layout aside { position: sticky; top: 96px; display: flex; flex-direction: column; gap: 8px; padding: 22px; border-radius: 8px; color: #fff; background: #100a30; }
+.legal-layout aside strong { margin-top: 16px; color: #59cbe8; font-size: 10px; }
+.legal-layout aside strong:first-child { margin-top: 0; }
+.legal-layout aside span, .legal-layout aside a { color: rgba(255,255,255,0.72); font-size: 13px; overflow-wrap: anywhere; }
+.legal-document { padding: 46px 52px; border: 1px solid rgba(16,10,48,0.14); border-radius: 8px; background: #fff; }
+.legal-document h2 { margin: 42px 0 13px; font-size: 26px; line-height: 1.2; }
+.legal-document h2:first-child { margin-top: 0; }
+.legal-document p, .legal-document li { color: #555167; font-size: 15px; line-height: 1.8; }
+.legal-document ul { padding-left: 22px; }
+.legal-document a { color: #c6265a; text-decoration: underline; }
+.notice { padding: 18px 20px; border-left: 4px solid #59cbe8; background: #eefaff; }
+.contact-panel { display: grid; grid-template-columns: 1fr auto; gap: 36px; align-items: center; padding: 38px; border-radius: 8px; color: #fff; background: #100a30; }
+.contact-panel h2 { margin: 14px 0; font-size: 48px; line-height: 1; }
+.contact-panel div > p:last-child { max-width: 600px; margin: 0; color: rgba(255,255,255,0.7); line-height: 1.7; }
+.contact-panel > a { display: inline-flex; min-height: 48px; align-items: center; padding: 0 20px; border-radius: 8px; color: #100a30; background: #59cbe8; font-size: 13px; font-weight: 900; }
+.contact-topics { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-top: 28px; }
+.contact-topics article { padding: 26px; border-radius: 8px; background: #fff; border: 1px solid rgba(16,10,48,0.14); }
+.contact-topics span { color: #dc3265; font-size: 11px; font-weight: 900; }
+.contact-topics h3 { margin: 34px 0 10px; font-size: 21px; }
+.contact-topics p { margin: 0; color: #6f6b82; line-height: 1.6; }
+.legal-footer { display: grid; grid-template-columns: 1.2fr 1fr 0.8fr; gap: 40px; padding: 50px 7vw 26px; color: #fff; background: #21163f; }
+.legal-footer > a { align-self: center; font-weight: 800; }
+.legal-footer nav { display: flex; flex-direction: column; gap: 10px; align-self: center; font-size: 13px; }
+.legal-footer small { grid-column: 1 / -1; padding-top: 22px; border-top: 1px solid rgba(255,255,255,0.14); color: rgba(255,255,255,0.55); }
+
+@media (max-width: 760px) {
+  .legal-header { min-height: 66px; padding: 0 18px; }
+  .legal-header nav { display: none; }
+  .legal-home { margin-left: auto; }
+  .legal-main { width: calc(100% - 30px); padding: 54px 0 76px; }
+  .legal-hero h1 { font-size: 50px; }
+  .legal-layout { grid-template-columns: 1fr; }
+  .legal-layout aside { position: static; }
+  .legal-document { padding: 32px 22px; }
+  .contact-panel { grid-template-columns: 1fr; padding: 28px 22px; }
+  .contact-panel h2 { font-size: 38px; }
+  .contact-panel > a { width: 100%; justify-content: center; }
+  .contact-topics { grid-template-columns: 1fr; }
+  .legal-footer { grid-template-columns: 1fr; padding: 42px 22px 24px; }
+  .legal-footer small { grid-column: auto; }
+}
