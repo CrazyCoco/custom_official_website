@@ -6,6 +6,8 @@
 .legal-header nav { display: flex; gap: 25px; margin-left: auto; font-size: 13px; font-weight: 700; }
 .legal-header nav a:hover { color: #59cbe8; }
 .legal-home { display: inline-flex; min-height: 42px; align-items: center; padding: 0 17px; border-radius: 8px; color: #100a30; background: #59cbe8; font-size: 12px; font-weight: 900; }
+.legal-home { transition: transform 180ms ease, box-shadow 180ms ease; }
+.legal-home:hover { transform: translateY(-2px); box-shadow: 0 10px 24px rgba(0,0,0,0.2); }
 .legal-main { width: min(1140px, calc(100% - 40px)); margin: 0 auto; padding: 78px 0 104px; }
 .legal-hero { max-width: 830px; padding-bottom: 56px; }
 .legal-hero h1 { margin: 20px 0; font-size: 72px; line-height: 0.98; font-weight: 900; }
@@ -17,6 +19,7 @@
 .legal-layout aside span, .legal-layout aside a { color: rgba(255,255,255,0.72); font-size: 13px; overflow-wrap: anywhere; }
 .legal-document { padding: 46px 52px; border: 1px solid rgba(16,10,48,0.14); border-radius: 8px; background: #fff; }
 .legal-document h2 { margin: 42px 0 13px; font-size: 26px; line-height: 1.2; }
+.legal-document h2 { scroll-margin-top: 100px; }
 .legal-document h2:first-child { margin-top: 0; }
 .legal-document p, .legal-document li { color: #555167; font-size: 15px; line-height: 1.8; }
 .legal-document ul { padding-left: 22px; }
@@ -28,6 +31,8 @@
 .contact-panel > a { display: inline-flex; min-height: 48px; align-items: center; padding: 0 20px; border-radius: 8px; color: #100a30; background: #59cbe8; font-size: 13px; font-weight: 900; }
 .contact-topics { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-top: 28px; }
 .contact-topics article { padding: 26px; border-radius: 8px; background: #fff; border: 1px solid rgba(16,10,48,0.14); }
+.contact-topics article { transition: transform 220ms ease, box-shadow 220ms ease; }
+.contact-topics article:hover { transform: translateY(-6px); box-shadow: 0 16px 34px rgba(16,10,48,0.12); }
 .contact-topics span { color: #dc3265; font-size: 11px; font-weight: 900; }
 .contact-topics h3 { margin: 34px 0 10px; font-size: 21px; }
 .contact-topics p { margin: 0; color: #6f6b82; line-height: 1.6; }
